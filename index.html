@@ -53,7 +53,7 @@
           <a href="https://twitter.com/asithafernand27" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.instagram.com/asitha_s_fdo/" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://www.linkedin.com/in/shivantha-fernando-0a3600153/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          
          
         </div>
       </div>
@@ -257,7 +257,7 @@
           </div>
         </div>
       <div>
-        <a class="btn btn-primary smooth-scroll mr-2" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Resume</a><a class="btn btn-primary" href="https://drive.google.com/file/d/1Ia7m1U5x4Mi6KiQSspqNx5S2wXrEidYq/view?usp=sharing" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Curriculum Vitae- Academic</a>
+        <a class="btn btn-primary"  target="_blank" href="https://drive.google.com/file/d/1Ia7m1U5x4Mi6KiQSspqNx5S2wXrEidYq/view?usp=sharing" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Curriculum Vitae- Academic</a>
       </div>
       </div>
     </section><!-- End Resume Section -->
@@ -276,8 +276,8 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Office</li>
-              <li data-filter=".filter-card">Trip</li>
-              <li data-filter=".filter-web">Sports</li>
+              <li data-filter=".filter-card">Sports</li>
+              <li data-filter=".filter-web">Trip</li>
             </ul>
           </div>
         </div>
@@ -390,6 +390,11 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-sale-discount"></i></div>
+            <h4 class="title"><a href="">Point of Sales System</a></h4>
+            <p class="description">Developed a point of sales system with Inventory Management Technologies System design by C programming language.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="icofont-smart-phone"></i></div>
             <h4 class="title"><a href="">Smartphone Price Depreciation Prediction</a></h4>
             <p class="description">A machine learning research project to predict future price variations of a smartphone since it is released.</p>
@@ -397,7 +402,7 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="icofont-spoon-and-fork"></i></div>
             <h4 class="title"><a href="">Stabalized Spoon</a></h4>
-            <p class="description"></p>
+            <p class="description">Self Stabilizing Spoon We Introduct to samrt self stabilizing spoon as final year project.specially designed for patient suffering from hand tremor conditions to help them avoid awkwardness and inconvenience while eating . It can recognize and actively offset hand tremor to provide them an easier and more stable dining solution.</p>
           </div>
         
 
@@ -422,7 +427,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>14/10, 1st Lane, Sri Sugatharama Mw, Ragama</p>
+                <p>Ragama, Gampaha District, Western Province, SL</p>
               </div>
 
               <div class="email">
@@ -437,25 +442,14 @@
                 <p>+94 71 671 26 27</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
+            <form action="#" id ="contactForm" method="post" role="form" class="php-email-form">
+              
               <div class="form-group">
                 <label for="name">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
@@ -463,13 +457,8 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                 <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -486,7 +475,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        &copy; Copyright <strong><span>Shivantha Fdo</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

@@ -190,4 +190,20 @@
     aos_init();
   });
 
+  $("#contactForm").on("submit", function(e) {
+    /* OnAction here*/
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    
+    var email = 'majasfdo27@gmail.com';
+        var subject = formData.get('subject');
+        var emailBody = formData.get('message');
+
+        if(subject.length >7 && emailBody.length > 0){
+          document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody;
+        }
+        
+        
+});
 })(jQuery);
